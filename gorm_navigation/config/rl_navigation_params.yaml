@@ -1,0 +1,22 @@
+# Configuration for GORM RL Navigation Node
+
+gorm_rl_navigation:
+  ros__parameters:
+    # Triton Inference Server settings
+    triton_server_url: "localhost:8000"
+    model_name: "IQL_depth_224_224"
+    model_version: "1"
+    enable_triton: true
+    
+    # Inference settings
+    inference_rate: 5.0  # Hz
+    
+    # Depth image processing
+    depth_image_height: 224
+    depth_image_width: 224
+    max_depth_value: 4.0
+    
+    # Navigation parameters
+    goal_tolerance: 0.5  # meters
+    max_linear_velocity: 1.0  # m/s
+    max_angular_velocity: 1.0  # rad/s
