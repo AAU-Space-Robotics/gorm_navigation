@@ -16,6 +16,16 @@
   <depend>nav2_msgs</depend>
   <depend>cv_bridge</depend>
 
+  <depend>rmw-zenoh-cpp</depend>
+  <depend>tf2-geometry-msgs</depend>
+  <depend>tf2-ros</depend>
+  <depend>tf_transformations</depend>
+  <depend>image-transport</depend>
+  <depend>image-transport-plugins</depend>
+  <depend>image-pipeline</depend>
+  <depend>camera-info-manager</depend>
+  <depend>camera-info-manager-py</depend>
+
   <exec_depend>python3-opencv</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
