@@ -28,6 +28,7 @@ setup(
             'world_map_aligner = gorm_mapping.world_map_aligner:main',
             'fake_aruco_tf_publisher = gorm_mapping.fake_aruco_tf_publisher:main',
             'aruco_tf_node = gorm_mapping.aruco_tf_node:main',
+            'world_goal_publisher = gorm_mapping.world_goal_publisher:main',
         ],
     },
 )
